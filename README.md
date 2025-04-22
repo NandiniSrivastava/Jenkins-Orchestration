@@ -130,11 +130,8 @@ docker-compose restart jenkins
 
 1. Go to the pipeline project in Jenkins
 2. Click **"Build Now"**
-![Screenshot 2025-04-02 190919](https://github.com/user-attachments/assets/711869ef-5283-451d-9d06-61b3863ada3a)
+![image](https://github.com/user-attachments/assets/a03ce130-60b4-4081-bb2e-672ad12cbb20)
 
-![Screenshot 2025-04-02 190928](https://github.com/user-attachments/assets/5c760bad-8549-4d44-bd2f-6843261255d1)
-
-![Screenshot 2025-04-02 190949](https://github.com/user-attachments/assets/84bd4d74-95f4-4866-93f3-10b5b1881f9a)
 
 4. After the build completes, download the executable from **Build Artifacts**
 
@@ -162,7 +159,8 @@ cd /mnt/c/Users/<your-user>/Downloads
 chmod +x add2vals
 ./add2vals 5 3
 ```
-![Screenshot 2025-04-02 192308](https://github.com/user-attachments/assets/dc8022f0-a37f-4cda-8074-c67e98050b41)
+![image](https://github.com/user-attachments/assets/27cb822a-b71e-43dd-8372-b86bb403d72f)
+
 
 ---
 
@@ -193,21 +191,3 @@ This project showcases a complete CI/CD pipeline using:
 - Docker for containerization
 - PyInstaller for building portable executables
 
-### 💡 What You’ve Learned
-
-- How to set up a Jenkins server with Docker
-- How to automate build, test, and deployment pipelines
-- How to use PyInstaller to package Python apps
-
----
-
-## 🙌 Thank You!
-
-If you found this helpful:
-
-- ⭐ Star this repo
-- 🔁 Share with others
-- 🛠️ Contribute improvements or suggestions
-- 🐞 Report any issues
-
-**Happy Coding! 🚀**
