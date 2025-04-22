@@ -76,6 +76,7 @@ Complete the setup:
 - Install suggested plugins
 - Create the first admin user
 - Keep the default Jenkins URL
+![image](https://github.com/user-attachments/assets/969564bb-a606-460f-9925-08e1c299f7c0)
 
 ### Step 2: Create the Pipeline Project
 
@@ -84,14 +85,13 @@ Complete the setup:
 3. Choose **"Pipeline"**, click **OK**
 4. Under **Pipeline script from SCM**:
    - SCM: `Git`
-   - Repository URL: `https://github.com/TarakKatoch/Jenkins-Orchestration.git`
    - Branch: `*/master`
 
 Click **Save**
 
-![Screenshot 2025-04-02 170804](https://github.com/user-attachments/assets/bda26b62-0620-46b4-8200-45f2c178bdd8)
+![image](https://github.com/user-attachments/assets/aaa65a87-376e-4be5-9881-55cf91ff0ae2)
+![image](https://github.com/user-attachments/assets/93d6690d-bef1-455a-9ab9-a052badd5e49)
 
-![Screenshot 2025-04-02 185027](https://github.com/user-attachments/assets/3a3e6fc0-6492-4f78-80a7-7b351d438921)
 
 ### Step 3: Configure Docker Inside Jenkins
 
@@ -112,11 +112,9 @@ Install required Docker plugins in Jenkins:
 - Docker plugin
 - docker-build-step
 - 
-![Screenshot 2025-04-02 185851](https://github.com/user-attachments/assets/c9b1a349-6284-4a1d-84aa-8b3173b73b27)
+![image](https://github.com/user-attachments/assets/9c9b3ac8-0bd8-4b21-9230-b365d3743f4d)
+![image](https://github.com/user-attachments/assets/17c8de84-624b-4ace-972c-c26d0b047524)
 
-![Screenshot 2025-04-02 190119](https://github.com/user-attachments/assets/447d282b-e7eb-4999-adf5-751a6330b967)
-
-![Screenshot 2025-04-02 190212](https://github.com/user-attachments/assets/e91f7d3d-7b47-4f2d-9944-9a3e537a5b0d)
 
 Restart Jenkins:
 ```bash
@@ -125,7 +123,7 @@ docker-compose restart jenkins
 ![Screenshot 2025-04-02 190327](https://github.com/user-attachments/assets/96ae0671-5a33-43bc-ad48-b6d2a8fce765)
 
 ---
-![Screenshot 2025-04-02 190405](https://github.com/user-attachments/assets/404e0fa0-18f8-49f6-9535-88fab0f541ee)
+![image](https://github.com/user-attachments/assets/491db0ec-86ae-4a5a-a857-acdb9bf3723c)
 
 
 ## ▶️ Running the Pipeline
